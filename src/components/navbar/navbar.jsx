@@ -32,7 +32,7 @@ const Navbar = () => {
 				<div className='header-container flex items-center justify-between gap-2.5'>
 					<div className='header-left flex gap-12'>
 						<div className='logo'>
-							<img src='../../../public/Logo.svg' alt='' />
+							<img src='/Logo.svg' alt='' />
 						</div>
 						<div className='call-number flex items-center gap-3'>
 							<p>
