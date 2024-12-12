@@ -11,7 +11,7 @@ const OurLocation = () => {
 				<div className='ourLocation-container'>
 					<div className='location-card'>
 						<div className='card-image'>
-							<img src='../../../public/locations/stulsAndFlowers.png' alt='' />
+							<img src='/locations/stulsAndFlowers.png' alt='' />
 						</div>
 						<div className='location-text'>
 							<div className='card-text'>
@@ -34,12 +34,12 @@ const OurLocation = () => {
 							<Button NavigateName={'/contact'} type={'filled'}>Make a reservation</Button>
 						</div>
 						<div className='card-image'>
-							<img src='../../../public/locations/stulsAndFlowers.png' alt='' />
+							<img src='/locations/stulsAndFlowers.png' alt='' />
 						</div>
 					</div>
 					<div className='location-card'>
 						<div className='card-image'>
-							<img src='../../../public/locations/stulsAndFlowers.png' alt='' />
+							<img src='/locations/stulsAndFlowers.png' alt='' />
 						</div>
 						<div className='location-text'>
 							<div className='card-text'>
