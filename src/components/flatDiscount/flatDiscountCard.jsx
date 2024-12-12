@@ -7,7 +7,7 @@ const FlatDiscountCard = () => {
 				<div className='card'>
 					<div className='card-text'>
 						<div className='card-image'>
-							<img src='./flatDiscountIcon/Pattern.png' alt='' />
+							<img src='/flatDiscountIcon/Pattern.png' alt='' />
 						</div>
 						<div className='card-info'>
 							<h2>MAIL US :</h2>
@@ -18,7 +18,7 @@ const FlatDiscountCard = () => {
 				<div className='card'>
 					<div className='card-text'>
 						<div className='card-image'>
-							<img src='./flatDiscountIcon/Pattern.png' alt='' />
+							<img src='/flatDiscountIcon/Pattern.png' alt='' />
 						</div>
 						<div className='card-info'>
 							<h2>CALL US :</h2>
@@ -30,7 +30,7 @@ const FlatDiscountCard = () => {
 			<div className='getFlat-right'>
 				<div className='card-text'>
 					<h2>- Get Flat -</h2>
-					<img src='./flatDiscountIcon/50%.png' alt='' />
+					<img src='/flatDiscountIcon/50%.png' alt='' />
 					<span>Discount</span>
 				</div>
 			</div>
