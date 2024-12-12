@@ -32,7 +32,6 @@ const App = () => {
 				<Route path='team/expert/:id' element={<ExpertProfileCard />} />
 				<Route path='blog/blog-single/:id' element={<BlogSingle />} />
 				<Route path='*' element={<NotFound/>}></Route>
-				<Route path='/notfound404' element={<NotFound/>}></Route>
 			</Routes>
 			<ScrollToTopButton/>
 			<Footer />
