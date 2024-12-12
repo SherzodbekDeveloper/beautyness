@@ -5,7 +5,7 @@ const OurAwesomeBenefitsCard = ({card}) => {
 	return (
 		<div className='card'>
 			<div className="card-image">
-				<img src="/Method.png" alt="" />
+				<img src="/awesomeBenefitsImage/Icons.png" alt="" />
 			</div>
 			<div className="card-text">
 				<h2>{card.title}</h2>

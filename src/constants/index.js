@@ -25,14 +25,14 @@ export const homeCardText = [
 export const aboutUsCard = [
 	{
 		id: 1,
-		url: '../../public/BeautyWebflowIcons/Icon.png',
+		url: '/BeautyWebflowIcons/Icon.png',
 		title: 'Beauty Experts',
 		description:
 			'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
 	},
 	{
 		id: 2,
-		url: '../../public/BeautyWebflowIcons/Icon-1.png',
+		url: '/BeautyWebflowIcons/Icon-1.png',
 		title: 'Great Services',
 
 		description:
@@ -40,7 +40,7 @@ export const aboutUsCard = [
 	},
 	{
 		id: 3,
-		url: '../../public/BeautyWebflowIcons/Vector.png',
+		url: '/BeautyWebflowIcons/Vector.png',
 		title: '100% Genuine',
 		description:
 			'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
@@ -77,7 +77,7 @@ export const ourServiceDatas = [
 export const customersFeedback = [
 	{
 		id: 1,
-		url: '../../public/beautyCustomersFeedBack-Images/Image.png',
+		url: '/beautyCustomersFeedBack-Images/Image.png',
 		name: 'James Williams',
 		description:
 			'“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “',
@@ -86,7 +86,7 @@ export const customersFeedback = [
 	},
 	{
 		id: 2,
-		url: '../../public/beautyCustomersFeedBack-Images/Image-1.png',
+		url: '/beautyCustomersFeedBack-Images/Image-1.png',
 		name: 'Lieo Jessica',
 		description:
 			'“ It is a long established fact that a reader will be tracked distracted by the readable content of a page is when looking at its layout. The point of using Lorem of distribution it look like readable English “',
