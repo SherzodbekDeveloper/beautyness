@@ -8,7 +8,7 @@ const NotFound404 = () => {
 		<div className="not-found-container">
 			<div className="not-found-text">
 				<div className="not-found-img">
-					<img src="../../../public/404.png" alt="" />
+					<img src="/404.png" alt="" />
 				</div>
 				<div className="not-found-title">
 					<Heading2>Page not Found!!!</Heading2>
