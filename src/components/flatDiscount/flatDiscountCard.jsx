@@ -30,7 +30,7 @@ const FlatDiscountCard = () => {
 			<div className='getFlat-right'>
 				<div className='card-text'>
 					<h2>- Get Flat -</h2>
-					<img src='/flatDiscountIcon/50%.png' alt='' />
+					<img src='/flatDiscountIcon/half.png' alt='' />
 					<span>Discount</span>
 				</div>
 			</div>
