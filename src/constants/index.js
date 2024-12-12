@@ -25,14 +25,14 @@ export const homeCardText = [
 export const aboutUsCard = [
 	{
 		id: 1,
-		url: '../../public/Beauty Webflow Icons/Icon.png',
+		url: '../../public/BeautyWebflowIcons/Icon.png',
 		title: 'Beauty Experts',
 		description:
 			'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
 	},
 	{
 		id: 2,
-		url: '../../public/Beauty Webflow Icons/Icon-1.png',
+		url: '../../public/BeautyWebflowIcons/Icon-1.png',
 		title: 'Great Services',
 
 		description:
@@ -40,7 +40,7 @@ export const aboutUsCard = [
 	},
 	{
 		id: 3,
-		url: '../../public/Beauty Webflow Icons/Vector.png',
+		url: '../../public/BeautyWebflowIcons/Vector.png',
 		title: '100% Genuine',
 		description:
 			'The majority have suffered alteration in some form, buying to injected humour, or randomised words which desktop publishing packages.',
