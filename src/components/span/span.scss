@@ -1,0 +1,26 @@
+span {
+	font-family: Manrope;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 23.17px;
+	letter-spacing: 0.1em;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	display: flex;
+	gap: 9px;
+	text-transform: uppercase;
+	color: rgba(92, 134, 146, 1);
+}
+
+
+@media screen and (max-width:700px) {
+	span{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width:500px) {
+	span{
+		font-size: 11px ;
+	}
+}

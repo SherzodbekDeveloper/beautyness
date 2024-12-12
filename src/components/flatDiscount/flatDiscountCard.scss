@@ -1,0 +1,124 @@
+.getFlat-container {
+	width: 100%;
+	border: 1px solid rgba(149, 191, 203, 1);
+	max-width: 455px;
+	display: flex;
+	& .getFlat-left {
+		& .card {
+			padding-block: 18px;
+			padding-inline: 40px;
+			background: #fff;
+			& .card-text {
+				gap: 20px;
+				display: flex;
+				& .card-info {
+					& h2 {
+						font-family: Manrope;
+						font-size: 14px;
+						font-weight: 800;
+						line-height: 21px;
+						letter-spacing: 0.08em;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+						color: rgba(20, 20, 20, 1);
+					}
+					& p {
+						color: rgba(20, 20, 20, 1);
+						font-family: Manrope;
+						font-size: 15px;
+						font-weight: 500;
+						line-height: 22.5px;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+					}
+				}
+			}
+		}
+	}
+	& .getFlat-right {
+		background: rgba(30, 44, 48, 1);
+		padding: 12px 34px;
+		& .card-text {
+			display: flex;
+			flex-direction: column;
+			gap: 7px;
+			& h2 {
+				font-family: Manrope;
+				font-size: 16px;
+				text-wrap: nowrap;
+				text-transform: uppercase;
+				font-weight: 800;
+				line-height: 26.25px;
+				letter-spacing: 0.1em;
+				text-align: center;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(255, 255, 255, 1);
+			}
+			& span {
+				text-align: center !important;
+				font-family: Manrope;
+				font-size: 18px;
+				font-weight: 800;
+				line-height: 31.5px;
+				letter-spacing: 0.02em;
+				text-transform: capitalize;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(255, 255, 255, 1);
+				gap: 0;
+				display: block;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.getFlat-container {
+		width: 100%;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		& .getFlat-left {
+			& .card {
+				padding-block: 18px;
+				padding-inline: 40px;
+				background: #fff;
+				& .card-text {
+					gap: 20px;
+					display: flex;
+					& .card-info {
+						& h2 {
+							
+							font-size: 14px;
+						}
+						& p {
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}
+		& .getFlat-right {
+			background: rgba(30, 44, 48, 1);
+			padding: 12px 34px;
+			& .card-text {
+				display: flex;
+				flex-direction: column;
+				gap: 7px;
+				& img{
+					width: 200px;
+					margin: auto;
+				}
+				& h2 {
+					font-size: 16px;
+				}
+				& span {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}

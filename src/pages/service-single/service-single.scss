@@ -1,0 +1,444 @@
+.what-includes-section {
+	& .what-includes-container {
+		display: flex;
+
+		& .includes-left-container {
+			background: rgba(235, 243, 245, 1);
+			max-width: 1022px;
+			width: 100%;
+			padding-block: 107px;
+			padding-inline: 16px;
+
+			& .includes-container {
+				max-width: 762px;
+				width: 100%;
+				margin-inline: auto;
+				display: flex;
+				justify-content: end;
+
+				& .includes-wrapper {
+					max-width: 530px;
+					width: 100%;
+					& .includes-text-container {
+						& span {
+							margin-bottom: 7px;
+						}
+						& h2 {
+							margin-bottom: 12px;
+						}
+					}
+					& .ourMethodology {
+						margin-top: 33px;
+						display: flex;
+						flex-direction: column;
+						gap: 20px;
+						& h2 {
+							font-family: Playfair Display;
+							font-size: 22px;
+							font-weight: 700;
+							line-height: 28.6px;
+							letter-spacing: -0.01em;
+							text-align: left;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+							color: rgba(20, 20, 20, 1);
+						}
+						& .methodCard {
+							display: flex;
+							gap: 30px;
+							& .card-image {
+								& img {
+									max-width: 50px;
+								}
+							}
+							& h3 {
+								font-family: Manrope;
+								font-size: 19px;
+								font-weight: 700;
+								line-height: 38px;
+								text-align: left;
+								text-underline-position: from-font;
+								text-decoration-skip-ink: none;
+								color: rgba(20, 20, 20, 1);
+							}
+						}
+					}
+				}
+			}
+		}
+		& .includes-right-container {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			overflow: hidden;
+
+			& img {
+				width: 100%;
+				filter: brightness(80%);
+				height: 100%;
+				object-fit: cover;
+			}
+
+			& .player-card {
+				box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.26);
+				cursor: pointer;
+				position: absolute;
+				z-index: 9;
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+				background: #fff;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: rgba(122, 156, 165, 1);
+				font-size: 50px;
+				filter: none;
+			}
+		}
+	}
+}
+
+.membership-cards-section {
+	background: #fff !important;
+
+	& .membership-cards {
+		margin-top: 43px;
+		display: grid;
+		grid-template-columns: 48% 48%;
+		gap: 31px;
+		& .memberCard {
+			background: rgba(30, 44, 48, 1);
+			display: flex;
+			justify-content: space-between;
+			& .member-card-left {
+				padding: 40px;
+
+				& .member-text {
+					& h2 {
+						font-family: Playfair Display;
+						font-size: 26px;
+						font-weight: 700;
+						line-height: 33.8px;
+						letter-spacing: -0.01em;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+						color: rgba(255, 255, 255, 1);
+					}
+					& button {
+						padding: 23px 56px;
+					}
+					& .card-list {
+						display: flex;
+						flex-direction: column;
+						margin-top: 16px;
+						gap: 1px;
+						margin-bottom: 27px;
+						& .list {
+							align-items: center;
+							display: flex;
+							gap: 24px;
+							& img {
+								width: 24px;
+								height: 24px;
+							}
+							& p {
+								font-family: Manrope;
+								font-size: 18px;
+								font-weight: 500;
+								line-height: 39.6px;
+								text-align: left;
+								text-underline-position: from-font;
+								text-decoration-skip-ink: none;
+								color: rgba(255, 255, 255, 1);
+							}
+						}
+					}
+				}
+			}
+			& .member-card-right {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				max-width: 139px;
+				width: 100%;
+
+				& .priceCard-top {
+					padding: 25px 20px;
+					background: rgba(17, 30, 34, 1);
+					& h2 {
+						font-family: Manrope;
+						font-size: 55px;
+						font-weight: 800;
+						line-height: 71.5px;
+						letter-spacing: -0.01em;
+						text-align: center;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+						color: rgba(255, 255, 255, 1);
+					}
+					& span {
+						font-family: Playfair Display;
+						font-size: 20px;
+						font-weight: 400;
+						line-height: 26px;
+						text-align: center;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+						color: rgba(255, 255, 255, 1);
+						letter-spacing: normal;
+						text-transform: lowercase;
+					}
+				}
+				& .subscriptionCard {
+					& h1 {
+						transform: rotate(90deg) translateX(-70px) rotateY(180deg)
+							rotateX(180deg);
+						font-family: Manrope;
+						text-wrap: nowrap;
+						font-size: 40px;
+						font-weight: 800;
+
+						line-height: 52px;
+						color: rgba(255, 255, 255, 0.197);
+					}
+				}
+			}
+		}
+	}
+}
+
+.make-an-appointment-section {
+	background: rgba(235, 243, 245, 1) !important;
+	& .make-appointment-heading {
+		max-width: 622px;
+		width: 100%;
+		margin-inline: auto;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		margin-bottom: 48px;
+		& p {
+			text-align: center;
+		}
+	}
+	& .make-appointment-form-container {
+		padding-inline: 16px;
+		max-width: 1010px;
+		margin-inline: auto;
+		padding-block: 83px;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+		& .form-container {
+			display: flex;
+			flex-direction: column;
+			gap: 35px;
+
+			& p {
+				max-width: 400px;
+				width: 100%;
+				margin: auto;
+				font-family: Manrope;
+				font-size: 16px;
+				font-weight: 400;
+				text-align: center;
+				line-height: 25.6px;
+				text-transform: none;
+				color: rgba(92, 134, 146, 1);
+				& span {
+					text-transform: none;
+					font-family: Manrope;
+					font-size: 16px;
+					letter-spacing: normal;
+					display: inline-block;
+					font-weight: 700;
+				}
+			}
+			.flat-discount-form {
+				max-width: 810px;
+				gap: 10px;
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+				& .textarea-input {
+					height: 65px;
+				}
+			}
+		}
+	}
+}
+.awesome-benefits-container-section {
+	background: #fff !important;
+}
+
+@media screen and (max-width: 1024px) {
+	.what-includes-section {
+		& .what-includes-container {
+			flex-direction: column;
+			& .includes-left-container {
+				padding: 40px 16px;
+				order: 2;
+				& .includes-container {
+					max-width: 100%;
+					justify-content: start;
+
+					& .includes-wrapper {
+						max-width: 100%;
+					}
+				}
+			}
+			& .includes-right-container {
+				order: 1;
+			}
+		}
+	}
+	.membership-cards-section {
+		background: #fff !important;
+
+		& .membership-cards {
+			grid-template-columns: auto;
+			gap: 31px;
+		}
+	}
+}
+
+@media screen and (max-width: 878px) {
+	.what-includes-section {
+		& .what-includes-container {
+			& .includes-right-container {
+				.player-card{
+					font-size: 40px;
+					width: 90px;
+					height: 90px;
+				}
+			}
+		}
+	}
+	.make-an-appointment-section {
+		& .make-appointment-form-container {
+			padding-block: 30px;
+		}
+	}
+	.flat-discount-form {
+		button {
+			padding: 20px;
+		}
+	}
+}
+@media screen and (max-width: 550px) {
+	.what-includes-section {
+		& .what-includes-container {
+			& .includes-right-container {
+				.player-card{
+					font-size: 35px;
+					width: 70px;
+					height: 70px;
+				}
+			}
+		}
+	}
+	.membership-cards-section {
+		background: #fff !important;
+
+		& .membership-cards {
+			grid-template-columns: auto;
+			gap: 31px;
+
+			& .memberCard {
+				flex-direction: column;
+
+				& .member-card-left {
+					padding: 30px;
+					order: 2;
+
+					& .member-text {
+						& button {
+							padding: 23px 40px;
+						}
+					}
+				}
+				& .member-card-right {
+					order: 1;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					max-width: 100%;
+					width: 100%;
+					position: relative;
+
+					& .priceCard-top {
+						padding: 25px 20px;
+						background: rgba(17, 30, 34, 1);
+						& h2 {
+							font-size: 55px;
+						}
+						& span{
+							display: block;
+							text-align: center;
+						}
+					}
+					& .subscriptionCard {
+						position: absolute;
+						width: 100%;
+						& h1 {
+							transform: none;
+							font-family: Manrope;
+							text-wrap: nowrap;
+							text-align: center;
+							font-size: 50px;
+							transform: translateY(40px);
+							font-weight: 800;
+
+							line-height: 52px;
+							color: rgba(255, 255, 255, 0.197);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.make-appointment-form-container {
+		.flat-discount-form {
+			max-width: 100% !important;
+			grid-template-columns: auto !important;
+			& .input {
+				width: 100% !important;
+				max-width: 100% !important;
+				& input {
+					max-width: 100% !important;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.what-includes-section {
+		& .what-includes-container {
+			& .includes-right-container {
+				.player-card{
+					font-size: 30px;
+					width: 50px;
+					height: 50px;
+				}
+			}
+		}
+	}
+	.make-appointment-form-container {
+		.flat-discount-form {
+			max-width: 100% !important;
+			grid-template-columns: auto !important;
+			& .input {
+				width: 100% !important;
+				& input {
+					max-width: 180px !important;
+				}
+			}
+		}
+	}
+}

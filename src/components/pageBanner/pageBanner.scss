@@ -1,0 +1,56 @@
+.page-banner-section {
+	background: url('../../../public/allPagesBackground.png');
+	width: 100%;
+	height: 495px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	& .page-container {
+		max-width: 649px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		& h2 {
+			color: #fff;
+			margin-bottom: 32px;
+		}
+		& span {
+			color: #fff;
+		}
+		& button {
+			padding: 23px 36px;
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.page-banner-section {
+		height: 400px;
+		& .page-container {
+			& h2 {
+				color: #fff;
+				margin-bottom: 20px;
+			}
+			& button {
+				padding: 15px 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.page-banner-section {
+		height: 350px;
+		& .page-container {
+			& h2 {
+				color: #fff;
+				margin-bottom: 20px;
+			}
+			& button {
+				padding: 12px 28px;
+			}
+		}
+	}
+}

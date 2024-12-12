@@ -1,0 +1,23 @@
+.paragraph {
+	font-family: Manrope;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29.7px;
+	text-align: left;
+	text-underline-position: from-font;
+	text-decoration-skip-ink: none;
+	color: rgba(85, 85, 85, 1);
+}
+
+@media screen and (max-width: 700px) {
+	.paragraph {
+		font-size: 16px;
+		line-height: 27.7px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.paragraph {
+		font-size: 14px;
+		line-height: 22.7px;
+	}
+}

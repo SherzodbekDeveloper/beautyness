@@ -1,0 +1,131 @@
+.flat-discount-section {
+	& .flat-discount-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 20px;
+		& .flat-discount-right {
+			width: 100%;
+			max-width: 550px;
+			background: #fff;
+			box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+		}
+		& .flat-discount-left {
+			width: 100%;
+			max-width: 534px;
+			display: flex;
+			flex-direction: column;
+			gap: 37px;
+			& .flat-discount-text {
+				& span {
+					margin-bottom: 10px;
+				}
+				& h2 {
+					margin-bottom: 14px;
+				}
+			}
+		}
+		& .flat-discount-right {
+			padding-block: 66px;
+
+			& .flat-discount-form {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				& button {
+					padding-block: 23px;
+				}
+
+				.textarea-input {
+					height: 136px;
+
+					&::placeholder {
+						vertical-align: top;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.flat-discount-section {
+		& .flat-discount-container {
+			flex-direction: column;
+
+			& .flat-discount-right {
+				padding: 25px 10px;
+			}
+			& .flat-discount-left {
+				& .flat-discount-text {
+					& span {
+						margin-bottom: 10px;
+						display: block;
+					}
+					& h2 {
+						margin-bottom: 14px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.flat-discount-section {
+		& .flat-discount-container {
+			flex-direction: column;
+
+			& .flat-discount-right {
+				padding: 25px 10px;
+				width: 100%;
+				max-width: 550px;
+				background: #fff;
+				box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+			}
+			& .flat-discount-left {
+				width: 100%;
+				max-width: 534px;
+				display: flex;
+				flex-direction: column;
+				gap: 37px;
+				& .flat-discount-text {
+					& span {
+						text-align: center;
+
+					}
+					& h2 {
+						margin-bottom: 14px;
+						text-align: center;
+					}
+					& p{
+						font-size: 16px;
+						text-align: center;
+					}
+				}
+			}
+		}
+		& .flat-discount-right {
+			padding-block: 66px;
+
+			& .flat-discount-form {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				& button {
+					padding-block: 23px;
+				}
+
+				.textarea-input {
+					height: 136px;
+
+					&::placeholder {
+						vertical-align: top;
+					}
+				}
+			}
+		}
+	}
+}

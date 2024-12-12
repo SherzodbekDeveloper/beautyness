@@ -1,0 +1,171 @@
+.expert-profile-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+	.expert-image-container {
+		max-width: 539px;
+		width: 100%;
+		height: 685px;
+		overflow: hidden;
+		background: rgba(208, 208, 208, 1);
+
+		img {
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+	}
+	.about-expert-container {
+		max-width: 533px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		& button {
+			padding: 24px 36px;
+		}
+		.expert-text-container {
+			span {
+				margin-bottom: 8px;
+			}
+			h2 {
+				margin-bottom: 17px;
+			}
+		}
+		& .phone-and-email-list {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+
+			& .list-card {
+				display: flex;
+				gap: 34px;
+				align-items: center;
+				& .vector {
+					width: 65px;
+					height: 65px;
+					border: 2px solid rgba(122, 156, 165, 1);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: rgb(0, 0, 0);
+					font-size: 30px;
+				}
+				& .list-text {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					padding-block: 3.5px;
+					& h3 {
+						font-family: Playfair Display;
+						font-size: 22px;
+						font-weight: 700;
+						line-height: 28.6px;
+						letter-spacing: -0.01em;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+
+						color: rgba(20, 20, 20, 1);
+					}
+				}
+			}
+		}
+		& .social-medias {
+			display: flex;
+			gap: 30px;
+
+			& a {
+				font-family: Font Awesome 5 Brands;
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 19.2px;
+				letter-spacing: 0.055em;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(20, 20, 20, 1);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.expert-profile-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: none;
+		align-items: center;
+		gap: 20px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.expert-profile-container {
+		flex-direction: column;
+		justify-content: none;
+		align-items: center;
+
+		.expert-image-container {
+			max-width: 539px;
+			width: 100%;
+			height: 400px;
+			overflow: hidden;
+			display: flex;
+			align-items: self-start;
+			background: rgba(208, 208, 208, 1);
+
+			img {
+				object-fit: cover;
+				height: auto;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.expert-profile-container {
+		.about-expert-container {
+			.phone-and-email-list {
+				display: flex;
+				flex-direction: column;
+				gap: 15px;
+
+				& .list-card {
+					display: flex;
+					gap: 10px;
+					flex-direction: column;
+					align-items: start;
+					& .vector {
+						width: 65px;
+						height: 65px;
+						border: 2px solid rgba(122, 156, 165, 1);
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: rgb(0, 0, 0);
+						font-size: 30px;
+					}
+					& .list-text {
+						display: flex;
+						flex-direction: column;
+						justify-content: space-between;
+						padding-block: 3.5px;
+						& h3 {
+							font-family: Playfair Display;
+							font-size: 22px;
+							font-weight: 700;
+							line-height: 28.6px;
+							letter-spacing: -0.01em;
+							text-align: left;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+
+							color: rgba(20, 20, 20, 1);
+						}
+					}
+				}
+			}
+		}
+	}
+}

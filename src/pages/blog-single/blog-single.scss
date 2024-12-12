@@ -1,0 +1,272 @@
+.blog-single-container {
+	.page-banner-section {
+		height: 625px;
+		align-items: normal;
+	}
+	.blog-single-about-card-section {
+		transform: translateY(0px);
+		position: relative;
+		padding: 0;
+		.about-the-card-container {
+			transform: translateY(-280px);
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+
+			.about-information-container-bottom {
+				display: flex;
+				gap: 20px;
+				padding-inline: 16px;
+				justify-content: space-between;
+				align-items: start;
+				.about-card-information {
+					display: flex;
+					flex-direction: column;
+					gap: 50px;
+					max-width: 694px;
+
+					.about-card-text-top {
+						.text-container-list {
+							display: flex;
+							flex-direction: column;
+							gap: 30px;
+
+							.text-list {
+								display: flex;
+								flex-direction: column;
+								gap: 20px;
+								.list {
+									font-family: Manrope;
+									font-size: 18px;
+									list-style: outside;
+									font-weight: 400;
+									line-height: 27.9px;
+									letter-spacing: 0.02em;
+									text-align: left;
+									text-underline-position: from-font;
+									text-decoration-skip-ink: none;
+									color: rgba(85, 85, 85, 1);
+								}
+							}
+						}
+						p {
+							font-family: Manrope;
+							font-size: 18px;
+							font-weight: 400;
+							line-height: 27.9px;
+							letter-spacing: 0.02em;
+							text-align: left;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+						}
+						h2 {
+							margin-block: 13px;
+							font-family: Playfair Display;
+							font-size: 45px;
+							font-weight: 700;
+							line-height: 63px;
+							letter-spacing: 0.02em;
+							text-align: left;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+							color: rgba(20, 20, 20, 1);
+						}
+					}
+					.about-image-card {
+						.image-card {
+							height: 400px;
+							display: flex;
+							align-items: center;
+							overflow: hidden;
+						}
+						p {
+							font-family: Manrope;
+							font-size: 18px;
+							font-weight: 400;
+							line-height: 27.81px;
+							letter-spacing: 0.02em;
+							text-align: center;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+							color: rgba(85, 85, 85, 1);
+							margin-top: 14px;
+						}
+					}
+					.about-card-text-bottom {
+						display: flex;
+						flex-direction: column;
+						gap: 40px;
+						.about-card-text {
+							display: flex;
+							flex-direction: column;
+
+							h2 {
+								font-family: Playfair Display;
+								font-size: 30px;
+								font-weight: 700;
+								line-height: 39px;
+								letter-spacing: 0.02em;
+								color: rgba(20, 20, 20, 1);
+								margin-bottom: 13px;
+							}
+						}
+					}
+					.about-card-description {
+						background: rgba(239, 252, 255, 1);
+						width: 100%;
+						display: flex;
+						p {
+							padding-inline: 10px;
+							font-family: Manrope;
+							font-size: 18px;
+							font-weight: 500;
+							line-height: 32.4px;
+							letter-spacing: 0.02em;
+							text-align: left;
+							text-underline-position: from-font;
+							text-decoration-skip-ink: none;
+							color: rgba(20, 20, 20, 1);
+							max-width: 577px;
+							margin: auto;
+							padding-block: 35px;
+						}
+						.left-corner {
+							width: 28px;
+
+							background: rgba(122, 156, 165, 1);
+						}
+					}
+					.about-card-list {
+						padding: 16px;
+						ol {
+							display: flex;
+							flex-direction: column;
+							gap: 10px;
+							li {
+								font-family: Manrope;
+								font-size: 18px;
+								font-weight: 400;
+								line-height: 40px;
+								color: rgba(85, 85, 85, 1);
+								letter-spacing: 0.02em;
+								list-style: decimal;
+							}
+						}
+					}
+				}
+				.about-chairman {
+					max-width: 409px;
+					background: rgba(239, 252, 255, 1);
+					padding: 39px 34px;
+					border: 5px solid rgba(122, 156, 165, 1);
+					display: flex;
+					flex-direction: column;
+					gap: 27px;
+					.about-profile {
+						display: flex;
+						gap: 24px;
+						.profile-text {
+							h2 {
+								font-family: Playfair Display;
+								font-size: 20px;
+								font-weight: 700;
+								color: rgba(20, 20, 20, 1);
+							}
+							p {
+								font-family: Manrope;
+								font-size: 16px;
+								font-weight: 400;
+								line-height: 24.72px;
+								letter-spacing: 0.02em;
+							}
+							button {
+								padding: 4px 13px;
+								font-family: Manrope;
+								font-size: 13px;
+								font-weight: 700;
+								line-height: 16.25px;
+								letter-spacing: 0.06em;
+								background: rgba(122, 156, 165, 1);
+							}
+						}
+					}
+				}
+				.social-medias-list-chairman {
+					display: flex;
+					align-items: center;
+					gap: 10px;
+
+					h2 {
+						text-wrap: nowrap;
+						font-family: Playfair Display;
+						font-size: 20px;
+						font-weight: 700;
+						line-height: 32px;
+						letter-spacing: -0.01em;
+					}
+					.social-media {
+						display: flex;
+						gap: 10px;
+						justify-content: space-between;
+						.media-card {
+							width: 45px;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							height: 45px;
+							font-size: 22px;
+							border: 1px solid rgba(122, 156, 165, 1);
+							color: rgba(20, 20, 20, 1);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width:800px) {
+	.about-information-container-bottom{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width:450px) {
+	.blog-single-container{
+			.blog-single-about-card-section {
+				.about-the-card-container {
+					.about-information-container-bottom {
+						.about-chairman{
+							padding: 10px;
+						}
+					}
+				}
+			}
+	}
+}
+@media screen and (max-width:450px) {
+	.blog-single-container{
+		.page-banner-section {
+			height: 405px;
+		}
+			.blog-single-about-card-section {
+				.about-the-card-container {
+					transform: translateY(-70px);
+
+					.about-information-container-bottom {
+						.about-chairman{
+							.about-profile{
+								gap: 10px;
+								align-items: center;
+							}
+
+							.social-medias-list-chairman{
+								flex-direction: column;
+							}
+						}
+					}
+				}
+			}
+	}
+}

@@ -1,0 +1,112 @@
+.latest-updates-section-container {
+	text-align: center;
+	& button {
+		margin-top: 60px;
+		padding: 23px 41px;
+	}
+	& .latest-updates-container {
+		margin-top: 40px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+		gap: 44px;
+
+		& .card {
+			& .card-image {
+				width: 370px;
+				height: 325px;
+				width: 100%;
+				overflow: hidden;
+				display: flex;
+				align-items: center;
+				position: relative;
+				& img {
+					width: 100%;
+					height: auto;
+					object-fit: cover;
+					max-height: 325px;
+					object-position: center;
+					transform: scale(1.65);
+				}
+			}
+			& .card-text {
+				padding: 30px 26px;
+				background: rgba(237, 245, 247, 1);
+				& .card-date-and-author {
+					display: flex;
+					margin-bottom: 10px;
+					justify-content: space-between;
+					& span {
+						font-family: Manrope;
+						font-size: 13px;
+						font-weight: 700;
+						line-height: 16.25px;
+						letter-spacing: 0.06em;
+						text-align: left;
+						text-underline-position: from-font;
+						text-decoration-skip-ink: none;
+					}
+					& .line {
+						border: 1px solid rgba(39, 45, 50, 1);
+						transform: rotate(90deg);
+					}
+				}
+			}
+			& h2 {
+				font-family: Playfair Display;
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 30.8px;
+				letter-spacing: 0.02em;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(20, 20, 20, 1);
+				margin-bottom: 14px;
+			}
+			& p {
+				font-family: Manrope;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 27.9px;
+				letter-spacing: 0.02em;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(85, 85, 85, 1);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.latest-updates-section-container {
+		& .latest-updates-container {
+			grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+			gap: 44px;
+
+			& .card {
+				& .card-text {
+					padding: 16px 16px;
+					& .card-date-and-author {
+						& span {
+							font-size: 10px;
+						}
+					}
+				}
+				& h2 {
+					font-size: 18px;
+				}
+				& p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 400px) {
+	.latest-updates-section-container {
+		& .latest-updates-container {
+			grid-template-columns: auto;
+		}
+	}
+}

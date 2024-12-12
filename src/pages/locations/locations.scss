@@ -1,0 +1,51 @@
+.ourLocation-container {
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
+	width: 100%;
+	.location-card {
+		.card-image {
+			max-width: 646px;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 10px;
+		.location-text {
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+			button {
+				max-width: 250px;
+				padding: 23px 36px;
+				text-wrap: nowrap;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.ourLocation-container {
+		.location-card {
+			flex-direction: column;
+			.card-image {
+				order: 1;
+				img {
+					width: 100%;
+				}
+			}
+			.location-text {
+				order: 2;
+				button {
+					max-width: 250px;
+					padding: 23px 36px;
+					text-wrap: nowrap;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Manrope:wght@200..800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+ul,
+li,
+dl {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+	&:hover {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input,
+textarea {
+	border: none;
+	background: transparent;
+	outline: none;
+}
+
+.custom-container {
+	max-width: 1800px;
+	width: 100%;
+	margin-inline: auto;
+}
+section {
+	padding-inline: 16px;
+	padding-block: 145px;
+}
+section:nth-child(even) {
+	background-color: rgba(235, 243, 245, 1);
+}
+
+section:nth-child(odd) {
+	background-color: rgba(255, 255, 255, 1);
+}
+.container-1200 {
+	max-width: 1200px;
+	margin-inline: auto;
+	width: 100%;
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background: rgb(0, 0, 0);
+}
+
+
+
+@media screen and (max-width:1024px){
+	section {
+		padding-inline: 16px;
+		padding-block: 120px;
+	}
+}
+
+@media screen and (max-width:700px){
+	section {
+		padding-inline: 16px;
+		padding-block: 90px;
+	}
+}
+
+@media screen and (max-width:500px){
+	section {
+		padding-inline: 16px;
+		padding-block: 70px;
+	}
+}

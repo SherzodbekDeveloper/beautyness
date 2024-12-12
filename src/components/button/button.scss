@@ -1,0 +1,51 @@
+
+
+.btn-filled {
+	gap: 10px;
+	opacity: 0px;
+	background:rgba(122, 156, 165, 1);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Manrope;
+}
+
+.btn-filled-small{
+	gap: 10px;
+	opacity: 0px;
+	background: rgba(122, 156, 165, 1);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Manrope;
+}
+.btn-unfilled{
+	gap: 10px;
+	opacity: 0px;
+	background:transparent;
+	color: rgba(20, 20, 20, 1);
+	font-size: 14px;
+	font-weight: 800;
+	border: 2px solid rgba(122, 156, 165, 1);
+
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Manrope;
+}
+.btn-unfilled-small{
+	gap: 10px;
+	opacity: 0px;
+	background: transparent;
+	color: rgba(20, 20, 20, 1);
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: Manrope;
+	border: 2px solid rgba(122, 156, 165, 1);
+}
+

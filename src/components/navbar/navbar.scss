@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+	box-shadow: 0px 1px 10px black;
+	position: sticky;
+	top: 0px;
+	background: white;
+	z-index: 99;
+}
+
+.call-number {
+	& span {
+		font-family: Manrope;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 22.5px;
+		letter-spacing: -0.01em;
+		text-align: left;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+	}
+	& p {
+		color: rgba(122, 156, 165, 1);
+		font-size: 22px;
+	}
+}
+
+.header-right {
+	& .ul-list {
+		outline: none;
+		& li a {
+			font-family: Manrope;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22.5px;
+			text-align: left;
+			text-underline-position: from-font;
+			text-decoration-skip-ink: none;
+			color: rgba(85, 85, 85, 1);
+		}
+		& li select {
+			font-family: Manrope;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22.5px;
+			text-align: left;
+			text-underline-position: from-font;
+			text-decoration-skip-ink: none;
+			color: rgba(85, 85, 85, 1);
+			background: transparent;
+			border: none;
+			outline: none;
+		}
+	}
+}
+.true {
+	color: red;
+	font-weight: 800;
+}
+.none {
+	display: none;
+}
+.menu,
+.close {
+	display: none;
+}
+
+@media screen and (max-width: 1400px) {
+	.call-number {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.none {
+		font-family: Manrope;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 22.5px;
+		letter-spacing: -0.01em;
+		text-align: left;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+		display: block;
+		color: rgba(20, 20, 20, 1);
+		text-transform: capitalize;
+	}
+	.custom-container {
+		padding: 15px;
+	}
+	.menu,
+	.close {
+		display: block;
+		font-size: 24px;
+		border: 1px solid black;
+		padding: 4px;
+		border-radius: 5px;
+	}
+	.close {
+		position: absolute;
+		top: 25px;
+		right: 20px;
+	}
+	.ul-list {
+		padding: 40px 16px;
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background: white;
+		z-index: 10;
+		top: -100%;
+		left: 0;
+		box-shadow: 0px 1px 10px black;
+		opacity: 0;
+		transition: 0.5s;
+	}
+	.ul-list.active {
+		top: 0%;
+		opacity: 1;
+	}
+	.navbar-button {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.navbar-button {
+		display: none;
+	}
+}

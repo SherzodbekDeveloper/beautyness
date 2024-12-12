@@ -1,0 +1,53 @@
+.flat-discount-form {
+	max-width: 400px;
+	width: 100%;
+	margin-inline: auto;
+	& .input {
+		display: flex;
+		padding: 18px 15px;
+		gap: 15px;
+		width: 100%;
+		max-width: 100%;
+		border: 1px solid rgba(92, 134, 146, 1);
+		font-size: 18px;
+		color: rgba(85, 85, 85, 1);
+		& textarea {
+			width: 100%;
+			resize: none;
+		}
+
+		& span {
+			font-size: 22px;
+			color: 2px solid rgba(92, 134, 146, 1);
+		}
+	}
+}
+
+
+@media screen and (max-width:400px) {
+	.flat-discount-form {
+		& .input {
+			display: flex;
+			padding: 18px 15px;
+			gap: 15px;
+			width: 100%;
+			max-width: 100%;
+			border: 1px solid rgba(92, 134, 146, 1);
+			font-size: 18px;
+			color: rgba(85, 85, 85, 1);
+			& input{
+				max-width: 150px;
+			}
+			& textarea {
+				width: 100%;
+				resize: none;
+			}
+	
+			& span {
+				font-size: 22px;
+				color: 2px solid rgba(92, 134, 146, 1);
+			}
+		}
+	}
+	
+}

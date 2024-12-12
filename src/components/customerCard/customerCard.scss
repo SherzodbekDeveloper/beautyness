@@ -1,0 +1,132 @@
+.testimonials-container {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+	gap: 36px;
+	& .card {
+		& .card-text {
+			background: #fff;
+			padding: 50px 48px;
+			& p {
+				width: 100%;
+				max-width: 485px;
+				font-family: Manrope;
+				font-size: 19px;
+				font-weight: 400;
+				line-height: 34.2px;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(20, 20, 20, 1);
+			}
+		}
+	}
+	& .card-info {
+		background: rgba(30, 44, 48, 1);
+		padding: 26px 51px;
+		& .about-person {
+			& .stars {
+				color: rgba(255, 255, 255, 1);
+			}
+			& h2 {
+				font-family: Playfair Display;
+				font-size: 20px;
+				font-weight: 700;
+				line-height: 32px;
+				letter-spacing: -0.01em;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(255, 255, 255, 1);
+			}
+			& span {
+				font-family: Manrope;
+				font-size: 14px;
+				font-weight: 600;
+				line-height: 22.4px;
+				letter-spacing: 0.03em;
+				text-align: left;
+				text-underline-position: from-font;
+				text-decoration-skip-ink: none;
+				color: rgba(255, 255, 255, 1);
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.testimonials-container {
+		display: flex;
+		margin-top: 40px;
+		justify-content: space-between;
+		gap: 36px;
+		& .card {
+			width: 100%;
+			& .card-text {
+				background: #fff;
+				padding: 20px;
+				& p {
+					max-width: 100%;
+					line-height: 35px;
+					font-size: 17px;
+				}
+			}
+		}
+		& .card-info {
+			background: rgba(30, 44, 48, 1);
+			padding: 20px;
+			& .about-person {
+				& .stars {
+					color: rgba(255, 255, 255, 1);
+				}
+				& h2 {
+					font-size: 18px;
+				}
+				& span {
+					font-size: 10px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.testimonials-container {
+		display: flex;
+		margin-top: 40px;
+		justify-content: space-between;
+		gap: 36px;
+		& .card {
+			width: 100%;
+			& .card-text {
+				background: #fff;
+				padding: 20px;
+				& p {
+					max-width: 100%;
+					line-height: 25px;
+					font-size: 16px;
+				}
+			}
+		}
+		& .card-info {
+			background: rgba(30, 44, 48, 1);
+			padding: 20px;
+
+			& .about-customer {
+				gap: 10px;
+				& .about-person {
+					& .stars {
+						color: rgba(255, 255, 255, 1);
+					}
+					& h2 {
+						font-size: 16px;
+						text-wrap: nowrap;
+					}
+					& span {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
+}
